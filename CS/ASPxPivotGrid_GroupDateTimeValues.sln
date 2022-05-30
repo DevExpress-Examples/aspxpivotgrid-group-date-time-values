@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPxPivotGrid_GroupDateTimeValues", "ASPxPivotGrid_GroupDateTimeValues\ASPxPivotGrid_GroupDateTimeValues.csproj", "{06EF3B78-D41D-4FF4-96FF-0A3ED0C927E1}"
 EndProject
 Global
@@ -15,5 +17,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79DF0D8F-CA58-416F-BAF6-B6F50F654CD9}
 	EndGlobalSection
 EndGlobal
