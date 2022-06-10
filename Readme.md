@@ -6,7 +6,8 @@
 
 This example shows how to group date-time values.
 
-In the example, the [ASPxPivotGrid](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid) control is bound to a data table that contains an 'OrderDate' field. Two PivotGridField fields are created and displayed in the Column Header Area, each of them bound to the 'OrderDate' field. The first pivot grid field's values are grouped by years, the second field's values are grouped by months. To group data, the [PivotGridFieldBase.GroupInterval](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotGridFieldBase.GroupInterval) property is used.
+In the example, the [ASPxPivotGrid](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid) contains two PivotGridField fields located in the Column Header Area. Each of the field is bound to the "OrderDate" data field. The first pivot grid field's values are grouped by years, the second field's values are grouped by months. To group data, specify the [PivotGridFieldBase.GroupInterval](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotGridFieldBase.GroupInterval) property.
+
 
 ## Files to Look At
 
