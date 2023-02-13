@@ -21,30 +21,25 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <dx:ASPxPivotGrid ID="ASPxPivotGrid1" runat="server" 
-            DataSourceID="SqlDataSource1" ClientIDMode="AutoID" IsMaterialDesign="False">
+               <dx:ASPxPivotGrid ID="ASPxPivotGrid1" runat="server" 
+            DataSourceID="SqlDataSource1" ClientIDMode="AutoID" IsMaterialDesign="False" OptionsView-RowTotalsLocation="Tree">
             <Fields>
-                <dx:PivotGridField ID="fieldUnitPrice" Area="DataArea" AreaIndex="0">
+                <dx:PivotGridField ID="fieldSales" Area="DataArea" AreaIndex="0" Name="fieldSales">
                     <DataBindingSerializable>
-                        <dx:DataSourceColumnBinding ColumnName="UnitPrice" />
+                        <dx:DataSourceColumnBinding ColumnName="ExtendedPrice" />
                     </DataBindingSerializable>
-                </dx:PivotGridField>
-                <dx:PivotGridField ID="fieldQuantity" Area="DataArea" AreaIndex="1">
-                    <DataBindingSerializable>
-                        <dx:DataSourceColumnBinding ColumnName="Quantity" />
-                    </DataBindingSerializable>
-                </dx:PivotGridField>
-                <dx:PivotGridField ID="fieldProductName" Area="RowArea" AreaIndex="0">
-                    <DataBindingSerializable>
-                        <dx:DataSourceColumnBinding ColumnName="ProductName" />
-                    </DataBindingSerializable>
-                </dx:PivotGridField>
-                <dx:PivotGridField ID="fieldYear" Area="ColumnArea" Caption="Year" Name="fieldYear">
+               </dx:PivotGridField>
+               <dx:PivotGridField ID="fieldYear" Area="RowArea" Caption="Year" Name="fieldYear" AreaIndex="0">
                     <DataBindingSerializable>
                         <dx:DataSourceColumnBinding ColumnName="OrderDate" GroupInterval="DateYear" />
                     </DataBindingSerializable>
                 </dx:PivotGridField>
-                <dx:PivotGridField ID="fieldMonth" Area="ColumnArea" Caption="Month" Visible="True" Name="fieldMonth">
+                <dx:PivotGridField ID="fieldQuarter" Area="RowArea" Caption="Quarter" Name="fieldQuarter" AreaIndex="1">
+                    <DataBindingSerializable>
+                        <dx:DataSourceColumnBinding ColumnName="OrderDate" GroupInterval="DateQuarter" />
+                    </DataBindingSerializable>
+                </dx:PivotGridField>
+                <dx:PivotGridField ID="fieldMonth" Area="RowArea" AreaIndex="2" Name="fieldMonth" Caption="Month">
                     <DataBindingSerializable>
                         <dx:DataSourceColumnBinding ColumnName="OrderDate" GroupInterval="DateMonth" />
                     </DataBindingSerializable>
@@ -56,9 +51,7 @@
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
             ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
             ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" 
-            SelectCommand="SELECT [Region], [City], [Country], [UnitPrice],
-                  [Quantity], [ProductName], [OrderDate]
-                  FROM [Invoices]"></asp:SqlDataSource>
+            SelectCommand="SELECT [Region], [City], [Country], [Quantity], [ProductName], [OrderDate], [ExtendedPrice] FROM [Invoices]"></asp:SqlDataSource>
 
     </div>
     </form>

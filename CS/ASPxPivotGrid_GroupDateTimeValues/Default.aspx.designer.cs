@@ -7,10 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GroupDateTimeValues {
+namespace GroupDateTimeValues
+{
 
 
-    public partial class _Default {
+    public partial class _Default
+    {
 
         /// <summary>
         /// form1 control.
@@ -31,31 +33,13 @@ namespace GroupDateTimeValues {
         protected global::DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid ASPxPivotGrid1;
 
         /// <summary>
-        /// fieldUnitPrice control.
+        /// fieldSales control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldUnitPrice;
-
-        /// <summary>
-        /// fieldQuantity control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldQuantity;
-
-        /// <summary>
-        /// fieldProductName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldProductName;
+        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldSales;
 
         /// <summary>
         /// fieldYear control.
@@ -65,6 +49,15 @@ namespace GroupDateTimeValues {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldYear;
+
+        /// <summary>
+        /// fieldQuarter control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldQuarter;
 
         /// <summary>
         /// fieldMonth control.
