@@ -21,5 +21,4 @@ Multiple Pivot Grid fields are bound to the same data field - `OrderDate`. The [
 
 ## More Examples
 
-- [Pivot Grid for WPF - How to Group Date-Time Values](https://github.com/DevExpress-Examples/how-to-group-date-time-values-e2131)
 - [Pivot Grid for Web Forms - Custom Group Intervals](https://github.com/DevExpress-Examples/how-to-implement-custom-group-intervals-e2132)
