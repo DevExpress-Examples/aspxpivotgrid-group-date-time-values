@@ -9,8 +9,7 @@ This example shows how to group date-time values.
 
 ![Pivot Grif for Web Forms - Group Date-Time Values](images/pivot-grid-web-forms-group-date-time.png)
 
-In the example, the [ASPxPivotGrid](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid) contains two [PivotGridField](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.PivotGridField) fields (*fieldYear* and *fieldMonth*) located in the Column Header Area. Each of the field is bound to the "OrderDate" data field. The first pivot grid field's values are grouped by years, the second field's values are grouped by months. To specify the grouping mode, use the binding’s [DataSourceColumnBindingBase.GroupInterval](https://docs.devexpress.com/CoreLibraries/DevExpress.PivotGrid.DataBinding.DataSourceColumnBindingBase.GroupInterval) property. 
-
+Multiple Pivot Grid fields are bound to the same data field - `OrderDate`. The [DataSourceColumnBindingBase.GroupInterval](https://docs.devexpress.com/CoreLibraries/DevExpress.PivotGrid.DataBinding.DataSourceColumnBindingBase.GroupInterval) property is used to create a _Year → Quarter → Month_ hierarchy.
 
 ## Files to Look At
 
@@ -23,3 +22,4 @@ In the example, the [ASPxPivotGrid](https://docs.devexpress.com/AspNet/DevExpres
 ## More Examples
 
 - [Pivot Grid for WPF - How to Group Date-Time Values](https://github.com/DevExpress-Examples/how-to-group-date-time-values-e2131)
+- [Pivot Grid for Web Forms - Custom Group Intervals](https://github.com/DevExpress-Examples/how-to-implement-custom-group-intervals-e2132)
