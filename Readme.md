@@ -7,7 +7,7 @@
 
 This example shows how to group date-time values.
 
-![Pivot Grif for Web Forms - Group Date-Time Values](images/pivot-grid-web-forms-group-date-time.png)
+![Pivot Grid for Web Forms - Group Date-Time Values](images/pivot-grid-web-forms-group-date-time.png)
 
 Multiple Pivot Grid fields are bound to the same data field - `OrderDate`. The [DataSourceColumnBindingBase.GroupInterval](https://docs.devexpress.com/CoreLibraries/DevExpress.PivotGrid.DataBinding.DataSourceColumnBindingBase.GroupInterval) property is used to create a _Year → Quarter → Month_ hierarchy.
 
