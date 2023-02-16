@@ -1,20 +1,19 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs"
            Inherits="GroupDateTimeValues._Default" %>
 
-<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v21.2, Version=21.2.12.0,
+<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v22.1, Version=22.1.6.0,
            Culture=neutral, PublicKeyToken=b88d1754d700e49a"
            Namespace="DevExpress.Web.ASPxPivotGrid"
            TagPrefix="dx" %>
 
-<%@ Register assembly="DevExpress.Web.v21.2, Version=21.2.12.0,
+<%@ Register assembly="DevExpress.Web.v22.1, Version=22.1.6.0,
            Culture=neutral, PublicKeyToken=b88d1754d700e49a"
            namespace="DevExpress.Web"
            tagprefix="dx" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<html>
 <head runat="server">
     <title></title>
 </head>
@@ -51,7 +50,6 @@
             ConnectionString="<%$ ConnectionStrings:ConnectionString %>" 
             ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" 
             SelectCommand="SELECT [Region], [City], [Country], [Quantity], [ProductName], [OrderDate], [ProductID], [ExtendedPrice] FROM [Invoices]"></asp:SqlDataSource>
-
     </div>
     </form>
 </body>

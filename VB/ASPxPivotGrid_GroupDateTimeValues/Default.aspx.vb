@@ -1,11 +1,13 @@
+﻿Imports DevExpress.Web.ASPxPivotGrid
 Imports System
 
 Namespace GroupDateTimeValues
+	Partial Public Class _Default
+		Inherits System.Web.UI.Page
 
-    Public Partial Class _Default
-        Inherits Web.UI.Page
+		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 
-        Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-        End Sub
-    End Class
+
+		End Sub
+	End Class
 End Namespace
