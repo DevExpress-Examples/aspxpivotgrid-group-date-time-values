@@ -11,7 +11,7 @@ This example shows how to group date-time values.
 
 Multiple Pivot Grid fields are bound to the same data field - `OrderDate`. The [DataSourceColumnBindingBase.GroupInterval](https://docs.devexpress.com/CoreLibraries/DevExpress.PivotGrid.DataBinding.DataSourceColumnBindingBase.GroupInterval) property is used to create a _Year → Quarter → Month_ hierarchy.
 
-## Files to Look At
+## Files to Review
 
 - [Default.aspx](./CS/ASPxPivotGrid_GroupDateTimeValues/Default.aspx) (VB: [Default.aspx](./VB/ASPxPivotGrid_GroupDateTimeValues/Default.aspx))
 
