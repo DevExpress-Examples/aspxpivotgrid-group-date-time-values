@@ -1,12 +1,12 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs"
            Inherits="GroupDateTimeValues._Default" %>
 
-<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v24.2, Version=24.2.4.0,
+<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v24.2, Version=24.2.5.0,
            Culture=neutral, PublicKeyToken=b88d1754d700e49a"
            Namespace="DevExpress.Web.ASPxPivotGrid"
            TagPrefix="dx" %>
 
-<%@ Register assembly="DevExpress.Web.v24.2, Version=24.2.4.0,
+<%@ Register assembly="DevExpress.Web.v24.2, Version=24.2.5.0,
            Culture=neutral, PublicKeyToken=b88d1754d700e49a"
            namespace="DevExpress.Web"
            tagprefix="dx" %>
